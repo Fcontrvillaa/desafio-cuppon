@@ -79,6 +79,28 @@
     
   }
 
+.form {
+  background-color: #28A745;
+  color: white;
+  padding: 20px;
+  margin-left: auto;
+  align-items: center;
+  text-align: center;
+  font-size: 2em;
+  
+}
+
+
+
+.copyrigth {
+  display: flex; /* Convierte el div en un contenedor flexible */
+  flex-direction: row; /* Asegura que los elementos se dispongan en fila (uno al lado del otro) */
+  align-items: center; /* Opcional: alinea verticalmente los elementos (texto y SVG) */
+}
+
+
+
+
 /* // <weight>: Use a value from 100 to 900
 // <uniquifier>: Use a unique and descriptive class name
 
