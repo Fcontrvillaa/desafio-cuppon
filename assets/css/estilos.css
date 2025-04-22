@@ -1,12 +1,123 @@
-.navbar {
-background-color: #28A745;
 
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+
+.navbar {
+    background-color: #28A745;
+    color: white;
+    padding-top: 10px;
+}
+
+
 
 .collapse {
     margin-left: auto;
 }
 
-.card-text {
-
+.card-title {
+    color: #212529;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
 }
+.card-text {
+    color: #212529;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    margin: 0;
+}
+
+.box {
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.adress {
+    display: flex; /* Convierte el div en un contenedor flexible */
+    flex-direction: row; /* Asegura que los elementos se dispongan en fila (uno al lado del otro) */
+    align-items: center; /* Opcional: alinea verticalmente los elementos (texto y SVG) */
+  }
+  
+  .bi-geo-alt-fill { /* Selector para el SVG */
+    margin-right: 5px; /* Opcional: añade un pequeño espacio entre el SVG y el texto */
+  }
+
+  
+  
+  .precio {
+    display: flex; /* Convierte la lista en un contenedor flexible */
+    flex-direction: row; /* Dispone los elementos en fila (horizontalmente) */
+    justify-content: flex-end; /* Justifica los elementos al final de la línea (derecha) */
+    align-items: center;
+  }
+  
+  .list-group-item {
+    margin-left: 10px; /*  añade un espacio entre los elementos de la lista */
+  }
+
+  .precio1 {
+    color: #707070;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+  }
+
+  .precio2 {
+    color: #28A745;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    
+  }
+  
+  .imagen {
+    
+    padding-left: 0%;
+    
+  }
+
+/* // <weight>: Use a value from 100 to 900
+// <uniquifier>: Use a unique and descriptive class name
+
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} 
+    
+.titulo {
+    padding-top: 100px;
+    padding-bottom: 80px;
+    text-align: center;
+    font: normal bold 60px "Open Sans";
+    letter-spacing: 0px;
+    color: #707070;
+    font-weight: 700;
+    
+}
+
+.textmed {
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 10px;
+    border-radius: 4px;
+    font-weight: 400; 
+    font-size: 0.8em;
+    
+}
+
+.textlow {
+    
+    font-family: "Open Sans", sans-serif;
+    padding-top: 10px;
+    border-radius: 4px; 
+    font-size: 0.7em;
+    
+}
+*/
