@@ -84,13 +84,15 @@
   color: white;
   padding: 20px;
   margin-left: auto;
-  align-items: center;
   text-align: center;
   font-size: 2em;
   
 }
 
-
+.max-ancho {
+  max-width: 600px;
+  align-items: center;
+}
 
 .copyrigth {
   display: flex; /* Convierte el div en un contenedor flexible */
