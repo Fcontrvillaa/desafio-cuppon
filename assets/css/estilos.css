@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 
 * {
@@ -13,7 +15,9 @@
     padding-top: 10px;
 }
 
-
+.cards {
+  justify-content: center;
+}
 
 .collapse {
     margin-left: auto;
@@ -55,6 +59,14 @@
     align-items: center;
   }
   
+
+.title {
+  color: #707070;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    padding-top: 25px;
+}
+
   .list-group-item {
     margin-left: 10px; /*  añade un espacio entre los elementos de la lista */
   }
@@ -73,11 +85,8 @@
     
   }
   
-  .imagen {
-    
-    padding-left: 0%;
-    
-  }
+  
+  
 
 .form {
   background-color: #28A745;
@@ -85,8 +94,13 @@
   padding: 20px;
   margin-left: auto;
   text-align: center;
+  align-items: center;
   font-size: 2em;
   
+}
+
+.footer {
+  align-items: center;
 }
 
 .max-ancho {
