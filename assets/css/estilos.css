@@ -66,7 +66,7 @@
   }
   
   .bi-geo-alt-fill { /* Selector para el SVG */
-    margin-right: 5px; /* Opcional: añade un pequeño espacio entre el SVG y el texto */
+    margin-right: 5px; /*  añade un pequeño espacio entre el SVG y el texto */
   }
 
   
@@ -109,7 +109,9 @@
   
 }
 
-
+.copyrigth p {
+  color: #707070;
+}
 
 
 
@@ -118,13 +120,13 @@
 .max-ancho {
   max-width: 800px;
   align-items: center;
-} */
+} 
 
 .copyrigth {
-  display: flex; /* Convierte el div en un contenedor flexible */
+  display: flex; *//* Convierte el div en un contenedor flexible */
   /* Asegura que los elementos se dispongan en fila (uno al lado del otro) */
-  align-items: center; /* Opcional: alinea verticalmente los elementos (texto y SVG) */
-}
+  /* align-items: center; Opcional: alinea verticalmente los elementos (texto y SVG) */
+
 
 .copy {
   display: flex; /* Convierte el div en un contenedor flexible */
