@@ -15,6 +15,14 @@
     padding-top: 10px;
 }
 
+.title {
+  color: #707070;
+  font-family: "Roboto";
+  
+  font-weight: 500;
+  padding-top: 25px;
+}
+
 .cards {
   justify-content: center;
 }
@@ -28,22 +36,33 @@
     font-family: "Roboto", sans-serif;
     font-weight: 300;
 }
+
 .card-text {
-    color: #212529;
-    font-family: "Roboto", sans-serif;
-    font-weight: 200;
-    margin: 0;
+  color: #707070;
+  font-family: "Roboto", sans-serif;
+  
+  font-weight: 200;
+  margin: 0;
 }
+
+.card-body {
+  
+  font-family: "Roboto", sans-serif;
+  
+} 
 
 .box {
     padding-left: 20px;
     padding-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    color: #212529;
 }
 
 .adress {
     display: flex; /* Convierte el div en un contenedor flexible */
     flex-direction: row; /* Asegura que los elementos se dispongan en fila (uno al lado del otro) */
     align-items: center; /* Opcional: alinea verticalmente los elementos (texto y SVG) */
+    color: #707070;
   }
   
   .bi-geo-alt-fill { /* Selector para el SVG */
@@ -52,24 +71,17 @@
 
   
   
-  .precio {
+.precio {
     display: flex; /* Convierte la lista en un contenedor flexible */
     flex-direction: row; /* Dispone los elementos en fila (horizontalmente) */
     justify-content: flex-end; /* Justifica los elementos al final de la línea (derecha) */
     align-items: center;
-  }
+}
   
 
-.title {
-  color: #707070;
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
-    padding-top: 25px;
-}
-
-  .list-group-item {
+.list-group-item {
     margin-left: 10px; /*  añade un espacio entre los elementos de la lista */
-  }
+}
 
   .precio1 {
     color: #707070;
@@ -82,37 +94,54 @@
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 1.5em;
+    padding-right: 1rem;
     
   }
   
   
-  
-
 .form {
   background-color: #28A745;
   color: white;
   padding: 20px;
   margin-left: auto;
   text-align: center;
-  align-items: center;
   font-size: 2em;
   
 }
 
-.footer {
-  align-items: center;
-}
 
+
+
+
+
+/*
 .max-ancho {
-  max-width: 600px;
+  max-width: 800px;
   align-items: center;
-}
+} */
 
 .copyrigth {
   display: flex; /* Convierte el div en un contenedor flexible */
-  flex-direction: row; /* Asegura que los elementos se dispongan en fila (uno al lado del otro) */
+  /* Asegura que los elementos se dispongan en fila (uno al lado del otro) */
   align-items: center; /* Opcional: alinea verticalmente los elementos (texto y SVG) */
 }
+
+.copy {
+  display: flex; /* Convierte el div en un contenedor flexible */
+  /* Asegura que los elementos se dispongan en fila (uno al lado del otro) */
+   /* Opcional: alinea verticalmente los elementos (texto y SVG) */
+}
+
+/* 
+.xx {
+  display: flex;
+  align-items: center; /* centra verticalmente */
+  gap: 10px; /* espacio entre icono y texto (opcional) */
+} 
+/* 
+.copy p {
+  margin: 0; /* quitar márgenes si no quieres espacios extra 
+} */
 
 
 
